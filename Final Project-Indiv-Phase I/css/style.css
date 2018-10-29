@@ -1,0 +1,18 @@
+/*May I use one style sheet for all folders or must I establish a style sheet 
+for each folder*/
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content:space-around
+}
+
+li {
+    display: inline;
+    ;
+
