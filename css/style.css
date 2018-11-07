@@ -31,14 +31,15 @@ header{text-align:center;
 /*Alternative colors for section*/
 /*#D3D3D3 code for light gray*/ 
 /*#C0C0C0 code for silver*/
-/*Change background color for each section to background color of each paragraph?*/
+/*Change background color for each section to background color of 
+each paragraph?*/
 
 section{
     margin-bottom: 10px;
-border:5px #C0C0C0 solid;
-padding:15px;
-background-color:rgba(192,192,192, .20);
-/*lighter version of border color*/
+    border:5px #C0C0C0 solid;
+    padding:15px;
+    background-color:rgba(192,192,192, .20);
+    /*lighter version of border color*/
 }
 
 /*update code for Nav Bar to change color when hovering See Class 7*/
@@ -82,50 +83,60 @@ nav li a:hover {
 
 /* I want All images to have rounded borders*/
 img {border-radius: 8px;
-margin-right:15px;
+     margin-right:15px;
 }
 
 
 
  p{line-height:25px;  
-  margin-bottom:10px;
+   margin-bottom:10px;
   } 
 
 
 /*Text to the right:flex box of the photo; background color to match photo*/
 
-.section1 {display:flex;
+.flexbox {display:flex;
 }
+
+
+
+
 
 
 
     
 /*.firstcolor{background-color: #e4e9f5} alternative color*/
-.firstcolor{background-color: rgba(228,233,245,.80)}
-           
+.firstcolor{background-color: rgba(228,233,245,.80);
+            border-radius: 8px;
+            margin-bottom: 15px
+}          
 
 /*.secondcolor{background-color: #ffd18e}alternative second color*/
-.secondcolor{background-color: rgba(255,209,142,.50)}
-
+.secondcolor{background-color: rgba(255,209,142,.50);
+             border-radius: 8px;
+             margin-bottom: 15px
+}
 /*.thirdcolor{background-color:#deefee first alternative*/
 /*.thirdcolor{background-color:#bdd4d4} second alternative*/
 /*.thirdcolor{background-color:rgba(189, 212, 212,.40) } third alternative*/
 
-.thirdcolor{background-color:rgba(222,239,238,.5)}   
+/*.thirdcolor{background-color:rgba first choice*/
+    
+  
 
 
 
 
 /*Text to the right:flex box of the photo; background color to match photo*/
-.section2 {display:flex;
+/*.section2 {display:flex;*/
     
     
     
-}
+/*}*/
     
-.section3 {display:flex;
+/*.section3 {display:flex;*/
 
-}
+/*}*/
     
 footer{margin:30px; 
 
