@@ -32,7 +32,7 @@ header{text-align:center;
 /*#D3D3D3 code for light gray*/ 
 /*#C0C0C0 code for silver*/
 /*Change background color for each section to background color of 
-each paragraph?*/
+each paragraph?.NO*/
 
 section{
     margin-bottom: 10px;
@@ -43,7 +43,7 @@ section{
 }
 
 /*update code for Nav Bar to change color when hovering See Class 7*/
-
+/*Don't forget to "freeze nav bar; see Class 10*/
 nav ul {
     list-style-type: none;
     background-color:#CBCBCB;
@@ -60,7 +60,6 @@ nav ul {
 }
 
 
-/*Don't forget to "freeze nav bar; see Class 10*/
 nav li a{
     display: inline;
     text-decoration:none;
@@ -93,17 +92,13 @@ img {border-radius: 8px;
   } 
 
 
-/*Text to the right:flex box of the photo; background color to match photo*/
+
 
 .flexbox {display:flex;
 }
 
 
-
-
-
-
-
+/* background color to match photo*/
     
 /*.firstcolor{background-color: #e4e9f5} alternative color*/
 .firstcolor{background-color: rgba(228,233,245,.80);
@@ -116,28 +111,17 @@ img {border-radius: 8px;
              border-radius: 8px;
              margin-bottom: 15px
 }
+
+
 /*.thirdcolor{background-color:#deefee first alternative*/
 /*.thirdcolor{background-color:#bdd4d4} second alternative*/
 /*.thirdcolor{background-color:rgba(189, 212, 212,.40) } third alternative*/
 
 /*.thirdcolor{background-color:rgba first choice*/
-    
-  
 
 
 
 
-/*Text to the right:flex box of the photo; background color to match photo*/
-/*.section2 {display:flex;*/
-    
-    
-    
-/*}*/
-    
-/*.section3 {display:flex;*/
-
-/*}*/
-    
 footer{margin:30px; 
 
 }   
