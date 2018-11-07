@@ -1,18 +1,134 @@
 /*May I use one style sheet for all folders or must I establish a style sheet 
 for each folder*/
 
+/*Do I want to use a background photo in any section?*/
+/*Copy Paste into Brackets to double check for coding errors when completed*/
+/*Add media querry or vh or vw so flexible for tablet and smart phone*/
+/* ===CSS RESET=== */
+* {
+    margin: 0;
+    padding: 0;
+}
+html{font-family: 'Montserrat',  "Book Antiqua", Palatino,sans-serif;}
 
+header,nav,h1{font-family: 'Cinzel',Georgia,"Times New Roman",serif;
+font-weight: bold}
 
+header{text-align:center;
+       padding:40px 25px;
+       /*font-size:15px;*/
+       /*font-size: small;*/
+       margin:15px 0px;
+}
+
+/*Alternative colors for section*/
+/*#D3D3D3 code for light gray*/ 
+/*#C0C0C0 code for silver*/
+/*Change background color for each section to background color of each paragraph?*/
+section{margin:10px;
+border:5px #C0C0C0 solid;
+padding:15px;
+background-color:rgba(192,192,192, .20);
+/*lighter version of border color*/
+}
+
+/*update code for Nav Bar to change color when hovering See Class 7*/
+/*Align Nav Bar under Header*/
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    background-color:#CBCBCB;
+    /*background-color:#CECECE;*/
+    /*margin: 0px;*/
+    margin: 15px;
     padding: 0;
+    /*overflow: hidden; only works with height defined*/
+    position: fixed;
+    top:0;
+    width:100%;
     display:flex;
-    justify-content:space-around
+    justify-content:space-around;
+    
+    
 }
 
-li {
+/*Increase Font size for each list,
+change the color, do I want to bold or italicize?, change to inline-block to control width and height?
+center with reference to Header*/
+/*Don't forget to "freeze nav bar;positioning sticky see Class 10*/
+nav li a{
     display: inline;
-    ;
+    text-decoration:none;
+    font-size: 25px
+}
 
+nav li a:visited {
+    color: #82D173;
+    
+}
+/*Change colors*/
+nav li a:hover {
+        color:#000000;
+        /*background-color:#FFC43D*/
+        background-color:#FFCF56;
+        
+}
+
+
+
+/* I want All images to have rounded borders*/
+img {border-radius: 8px;
+}
+
+/*See Class 13- I need to define parameters for each section and then 
+further define parameters for each flex box */
+
+    
+    
+
+
+/*Text to the right:flex box of the photo; background color to match photo*/
+/*Need to establish another container within Section 1 so that Text can be evevnly
+displaced display:flex; justify-content:space around*/
+.section1 {display:flex;
+
+}
+
+/*.flex-container div:nth-child(2){
+     order: 3;*/
+
+/*.section1 p:nth-child(3){*/
+/*    justify-content:flex-end;*/
+
+
+    
+/*.firstcolor{background-color: #e4e9f5} alternative color*/
+.firstcolor{background-color: rgba(228,233,245,.80)}
+           
+
+/*.secondcolor{background-color: #ffd18e}alternative second color*/
+.secondcolor{background-color: rgba(255,209,142,.50)}
+
+/*.thirdcolor{background-color:#deefee first alternative*/
+/*.thirdcolor{background-color:#bdd4d4} second alternative*/
+/*.thirdcolor{background-color:rgba(189, 212, 212,.40) } third alternative*/
+
+.thirdcolor{background-color:rgba(222,239,238,.5)}   
+
+
+
+
+/*Text to the right:flex box of the photo; background color to match photo*/
+.section2 {display:flex;
+    
+    
+    
+}
+    
+.section3 {display:flex;
+
+}
+    
+footer{margin:30px; 
+
+}   

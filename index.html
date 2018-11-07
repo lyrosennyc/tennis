@@ -1,108 +1,119 @@
 <!DOCTYPE html>
+<!--Copy Paste all into Brackets to double check for coding errors 
+when completed?-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LBR Consulting,LLC </title>
+    <title>LBR Consulting, LLC </title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat"
+    rel="stylesheet">
+
 </head>
-<!--<body>-->
-<body>
-    <header>
-        <!--Use different google font for Header than for the balance of the 
-        Website, maybe use a background image will-->
-        <!---->
-    <h1 style="text-align:center">LBR Consulting, LLC</h1>
-     </header> 
+
+<!--Found this very new attribute on w3schools which works as Spell Check.
+    But must have Window 10 or above installed. Spell errors show in
+    WEBSITE-underlined with a Red Squiggly Line, NOT in html document.
+    Does not always work-check with Cira-Did read on internet is glitchy
+    May need to copy and paste html in Word to verify no spelling issues. 
+    Will need to add to this comment section before turning in Final Project as
+    certain words that are correct are showing as incorrect on Web Site
+    because not recognized.
+    -->
+    
+   <!--add background color for Body or too much color with color 
+   to other sections-->
+
+<body contenteditable="true" spellcheck="true">
+ <!--Use different google font for Header than for the balance of the 
+        Website, maybe use a background image -->
+ <!--Nav Bar use CSS text property to remove underline, flex box to 
+          align list horizontally and list-style-type to remove the dots and the
+          lines and change the color of the list, greater PX, establish 
+          link to different sections-->
+     
      <nav>
       <ul>
-          <!--Use CSS textproperty to remove underline, flex box to 
-          align list horizontally and list-style-type to remove the dots and the
-          lines and change the color of the list , greater PX, do I establish 
-          link to new page or jump to different section?-->
-          <!--about-->
-          <li><a href="#">Who We Are</a></li>
-          <li><a href="#">What We Do</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <!--Possibley remove thest two lists-->
-          <li></li>
-          <li></li>
-      </ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#who">Who We Are</a></li>
+          <li><a href="#what">What We Do</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      <!--<ul>-->
+      <!--    <li><a href="index.html">Home</a></li>-->
+      <!--    <li><a href="whoweare.html">Who We Are</a></li>-->
+      <!--    <li><a href="whatwedo.html">What We Do</a></li>-->
+      <!--    <li><a href="contactus.html">Contact Us</a></li>-->
+      <!--  </ul>-->
      </nav> 
-      
-      
-      <section>
-          <!--May use breaks within paragraphs for multiple sentences.-->
-          <h1>Who We Are</h1>
-          <p>Lynne Rosen has over 30 years of experience in the retail industry.
-         Her expertise is in Managment, Seasonal Financial Planning, Merchandise
-          Planning, Store Planning and Allocation.</p>
-          <p> 
-          In her leadership roles working for well respected brands in the industry in better and luxury; Ann Taylor, J.Crew, Club 
-          Monaco, Coach,Escada and Calypso St. Barth she had been instrumental in building teams,mentoring 
-          and elevating and revamping the planning process. 
-          </p>
-          <p></p>
-          <p></p>
-          <p></p>
-          
-          <p></p>
-      
-      
-      
-      
-      </section>
-      
-      <section>
-          <h1>What We Do</h1>
-          <p><img src="images/pexels-planning.jpeg" alt="the word planning written 
-          in a notebook"/></p>
-          <p>Lynne can provide guidance in establishing procedures and processes to planning teams to assist with 
-          achieving and completing goals and deadlines in this fast paced industry.<br>Additionally,
-          she will  assess the current planning systems and determine "best practices" to use them to their
-          optimum potential. Lynne will assist also in implementing and determining best
-          new systems for your company.
-          </p>
-          <p></p>
-          <p></p>
-          <p></p>
-          
-          </section>
-      <section>
-         <h1>   Contact Us</h1>
-         <p></p>
-         <p></p>
-         <p></p>
-         <p></p>
-         <p></p>
-         
-         
-         
-         </section>
-      
-      
-      
-      
-         
-         
-         
      
-    
-        
-        
-        
-        
-        
-    <footer>
-        <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li></ul>
-        
-        
+         <!--Use background color to make Header more impactful? After establish
+         colors for nav bar links-->
+    <header>
+    <h1>LBR Consulting, LLC</h1>
+     </header> 
+     
+      <!--Reminder:use breaks within paragraphs for multiple sentences.-->
+      <section id="who">
+         <h1>Who We Are</h1>
+          <div class="section1">
+          <p><img src="images/pexels-photo-collaboration.jpeg" alt="diverse
+          individuals-fist pumping" width="350" height="350"></p>
+          <div class="firstcolor">
+           <p>Lynne Rosen has over 30 years of experience in the 
+           retail industry. Her expertise is in Management, Seasonal Financial
+           Planning, Merchandise Planning, Store Planning and Allocation.</p>
+          <p> Lynne has worked for well respected brands
+           in the industry in better and luxury; Ann Taylor, J.Crew, Club Monaco,
+           Coach, ESCADA and Calypso St. Barth.</p>
+           <p> In her leadership roles, she has been instrumental
+           in elevating and revamping the planning process. Thereby, increasing efficiency
+           and productivity in the planning division.</p>
+           </div>
+          </div>
+           </section>
+      
+      <section id="what"> 
+          <!--Add a paragraph about assisting with establishing training programs to retain talent?-->
+          <h1>What We Do</h1>
+          <div class="section2">
+          <p><img src="images/pexels-planning.jpeg" alt="the word planning written 
+          in a notebook" width="350" height="350"></p>
+          
+                    <!--Final sentence needs work: too wordy and ambiguous-->
+          <div class="secondcolor">          
+          <p>LBR Consulting, LLC can provide guidance in establishing policies, procedures 
+          and processes to planning teams to ensure that all goals are achieved and all  
+          deadlines are met in this fast paced industry.<br>We will assess the current 
+          planning systems and determine "best practices", allowing everyone to maximize
+          the potential of the systems.
+          </p>
+          <p>Additionally, we offer support in establishing training and mentoring programs to assist in 
+          building teams and retaining talent in this competitive hiring market.
+          </p>
+          </div>
+          </div>
+         </section>
+          
+      <section id="contact">
+         <h1> Contact Us</h1>
+         <div class="section3">
+           <p><img src="images/pexels-photo-cellphone-artic2.jpg" alt="cell phone with 
+           3 ways to contact" width="700" height="350"></p>  
+           <div class="firstcolor">
+           <p>LBR Consulting, LLC<br>222 2nd Ave <br>New York, New York<br> 917-222-2222</p>
+           <p>lbrllc@gmail.com</p>
+           <p>www.linkedin.com/in/lbrllc</p>
+         </div>
+         </div>
+        </section>
+      
+      
+      
+    <footer>&copy; Lynne Rosen 2018
+     
     </footer>
 
     </body>
