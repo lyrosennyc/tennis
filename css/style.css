@@ -19,7 +19,9 @@ header,nav,h1{
     font-family: 'Cinzel',Georgia,"Times New Roman",serif;
     font-weight: bold
     
+ 
 }
+
 
 header{text-align:center;
        padding:40px 25px;
@@ -44,9 +46,15 @@ section{
 
 /*update code for Nav Bar to change color when hovering See Class 7*/
 /*Don't forget to "freeze nav bar; see Class 10*/
-nav ul {
-    list-style-type: none;
-    background-color:#CBCBCB;
+
+nav {
+ background: #F3D2AE;
+} 
+
+
+
+ nav ul {list-style-type: none;
+      background-color:#CBCBCB;
     /*background-color:#CECECE;*/
     padding: 0;
     /*overflow: hidden; only works with height defined*/
@@ -56,27 +64,31 @@ nav ul {
     display:flex;
     justify-content:space-around;
     
-    
-}
+    }
+ 
 
 
-nav li a{
-    display: inline;
-    text-decoration:none;
+
+nav li a:link {
+    text-decoration:none;  
+    /*display: inline;*/
+    /*not necessary because aligned horizontally using*/
+    /*display:flex justify-content with parent.*/
     font-size: 25px;
 }
 
-nav li a:visited{
-    color:#82d173;
+nav li a:visited {
+    color: #82d173;
 }
 
-/*Change colors*/
 nav li a:hover {
-        color:#000000;
-        /*background-color:#FFC43D*/
+        color: #ffffff;
+        /*background-color:#FFC43D;*/
         background-color:#FFCF56;
-        
-}
+       
+}    
+
+
 
 
 
@@ -87,8 +99,8 @@ img {border-radius: 8px;
 
 
 
- p{line-height:25px;  
-   margin-bottom:10px;
+p { line-height:25px; 
+    margin-bottom:10px;
   } 
 
 
