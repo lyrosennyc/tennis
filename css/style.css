@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     font-family: 'Montserrat',  "Book Antiqua", Palatino,sans-serif;
     
@@ -17,7 +18,7 @@ html{
 
 header,nav,h1{
     font-family: 'Cinzel',Georgia,"Times New Roman",serif;
-    font-weight: bold
+    font-weight: bold;
     
  
 }
@@ -115,13 +116,13 @@ p { line-height:25px;
 /*.firstcolor{background-color: #e4e9f5} alternative color*/
 .firstcolor{background-color: rgba(228,233,245,.80);
             border-radius: 8px;
-            margin-bottom: 15px
+            margin-bottom: 15px;
 }          
 
 /*.secondcolor{background-color: #ffd18e}alternative second color*/
 .secondcolor{background-color: rgba(255,209,142,.50);
              border-radius: 8px;
-             margin-bottom: 15px
+             margin-bottom: 15px;
 }
 
 
